@@ -1,0 +1,1102 @@
+{
+  "last_node_id": 22,
+  "last_link_id": 35,
+  "nodes": [
+    {
+      "id": 16,
+      "type": "BlueprintEthnicity",
+      "title": "1. เลือกเชื้อชาติ (Ethnicity Blueprint)",
+      "pos": [
+        20,
+        40
+      ],
+      "size": [
+        380,
+        70
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "ethnicity_prompt",
+          "type": "STRING",
+          "links": [
+            25
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "color": "#223344",
+      "bgcolor": "#334455",
+      "widgets_values": [
+        "🇰🇷 สาวเกาหลี K-Pop / นางเอกเกาหลี (Korean Ulzzang & Actress)"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "BlueprintFace",
+      "title": "2. เลือกหน้าตา & ทรงผม (Face & Hair Blueprint)",
+      "pos": [
+        20,
+        145
+      ],
+      "size": [
+        380,
+        95
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "face_prompt",
+          "type": "STRING",
+          "links": [
+            26
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "color": "#223344",
+      "bgcolor": "#334455",
+      "widgets_values": [
+        "✨ หันข้าง 3/4 มองเหม่อริมทะเล (3/4 Side Glance Away)",
+        "🌬️ ผมยาวดัดลอนสีน้ำตาลเข้มปลิวตามลม (Long Wavy Brown Windblown)"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "BlueprintSkin",
+      "title": "3. เลือกผิวพรรณ (Skin Tone & Texture Blueprint)",
+      "pos": [
+        20,
+        275
+      ],
+      "size": [
+        380,
+        95
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "skin_prompt",
+          "type": "STRING",
+          "links": [
+            27
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "color": "#223344",
+      "bgcolor": "#334455",
+      "widgets_values": [
+        "🥛 ผิวขาวอมชมพู มีออร่าธรรมชาติ (Fair Milky-White Glowing Aura Skin)",
+        "📸 ผิวคนจริงระดับ DSLR รูขุมขนละเอียด + หน้ามีมิติ 3D (Real DSLR Pores & 3D Depth - แนะนำ)"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "BlueprintBody",
+      "title": "4. เลือกสัดส่วน & ท่าโพส (Body & Pose Blueprint)",
+      "pos": [
+        20,
+        405
+      ],
+      "size": [
+        380,
+        95
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "body_prompt",
+          "type": "STRING",
+          "links": [
+            28
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "color": "#223344",
+      "bgcolor": "#334455",
+      "widgets_values": [
+        "⏳ หุ่นนาฬิกาทราย เอวคอด อกสวยสมมาตร (Curvy Hourglass & Beautiful Breasts)",
+        "🛥️ โน้มตัวไปข้างหน้าเล็กน้อย มุมพอร์ตเทรตครึ่งตัว (Medium Close-Up Portrait)"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "BlueprintOutfit",
+      "title": "5. เลือกเครื่องแต่งกาย (Outfit - เลือกไม่มีเสื้อผ้าได้)",
+      "pos": [
+        20,
+        535
+      ],
+      "size": [
+        380,
+        95
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "outfit_prompt",
+          "type": "STRING",
+          "links": [
+            29
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "color": "#442233",
+      "bgcolor": "#553344",
+      "widgets_values": [
+        "🚫 ไม่มีเสื้อผ้าเลย - เปลือยทั้งหมด (Completely Nude - Small Areola & Beautiful Tits)",
+        "✨ สร้อยคอเพชรเส้นเล็กหรูหรา (Minimalist Diamond Pendant)"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "BlueprintBackground",
+      "title": "6. เลือกฉากหลัง & แสง (Background & Lighting Blueprint)",
+      "pos": [
+        20,
+        665
+      ],
+      "size": [
+        380,
+        95
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "background_prompt",
+          "type": "STRING",
+          "links": [
+            30
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "color": "#224433",
+      "bgcolor": "#335544",
+      "widgets_values": [
+        "🛥️ ดาดฟ้าเรือยอชต์หรูกลางทะเลสีฟ้า (Luxury White Yacht & Blue Ocean)",
+        "☀️ แดดธรรมชาติริมทะเล มีมิติเงา 3D (Bright Natural Sunlight & 3D Shadows)"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CheckpointLoaderSimple",
+      "title": "Base Model (RealCamera AsianAura DSLR Hybrid v1)",
+      "pos": [
+        440,
+        40
+      ],
+      "size": [
+        320,
+        98
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            2
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            8
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "RealCamera_AsianAura_Hybrid_v1.safetensors"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "LoraLoader",
+      "title": "LoRA 1: Asian Beauty Photo (Sarah - No Canvas)",
+      "pos": [
+        440,
+        170
+      ],
+      "size": [
+        320,
+        126
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            15
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            16
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "AsianBeauty_Sarah_v1.safetensors",
+        0.55,
+        0.55
+      ]
+    },
+    {
+      "id": 12,
+      "type": "LoraLoader",
+      "title": "LoRA 2: Skin Texture Slider (Real DSLR Pores)",
+      "pos": [
+        440,
+        330
+      ],
+      "size": [
+        320,
+        126
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 15
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 16
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            17
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            18
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "skin_texture_slider_v1.safetensors",
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "id": 13,
+      "type": "LoraLoader",
+      "title": "LoRA 3: Perfect Perky Breasts V3 (Small Areola & Uplifted)",
+      "pos": [
+        440,
+        490
+      ],
+      "size": [
+        320,
+        126
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 17
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 18
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            3,
+            19
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            24
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "PerfectPerkyBreasts_v3.safetensors",
+        0.4,
+        0.4
+      ]
+    },
+    {
+      "id": 22,
+      "type": "BlueprintMasterCompiler",
+      "title": "7. รวม Blueprint อัตโนมัติ (Master Compiler 2K)",
+      "pos": [
+        800,
+        140
+      ],
+      "size": [
+        350,
+        240
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 24
+        },
+        {
+          "name": "ethnicity_prompt",
+          "type": "STRING",
+          "link": 25
+        },
+        {
+          "name": "face_prompt",
+          "type": "STRING",
+          "link": 26
+        },
+        {
+          "name": "skin_prompt",
+          "type": "STRING",
+          "link": 27
+        },
+        {
+          "name": "body_prompt",
+          "type": "STRING",
+          "link": 28
+        },
+        {
+          "name": "outfit_prompt",
+          "type": "STRING",
+          "link": 29
+        },
+        {
+          "name": "background_prompt",
+          "type": "STRING",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "POSITIVE",
+          "type": "CONDITIONING",
+          "links": [
+            6,
+            20
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "NEGATIVE",
+          "type": "CONDITIONING",
+          "links": [
+            7,
+            21
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "BASE_LATENT",
+          "type": "LATENT",
+          "links": [
+            9
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "hires_w",
+          "type": "INT",
+          "links": [],
+          "slot_index": 3
+        },
+        {
+          "name": "hires_h",
+          "type": "INT",
+          "links": [],
+          "slot_index": 4
+        },
+        {
+          "name": "final_2k_w",
+          "type": "INT",
+          "links": [],
+          "slot_index": 5
+        },
+        {
+          "name": "final_2k_h",
+          "type": "INT",
+          "links": [],
+          "slot_index": 6
+        },
+        {
+          "name": "compiled_prompt_preview",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 7
+        }
+      ],
+      "properties": {},
+      "color": "#332244",
+      "bgcolor": "#443355",
+      "widgets_values": [
+        "📷 1440x1960 2K พอร์ตเทรตสมส่วน DSLR (1440 x 1960 px - ค่าเริ่มต้น ไม่โดนบีบ)"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "KSampler",
+      "title": "Pass 1 KSampler (CFG 5.5 Natural DSLR)",
+      "pos": [
+        1190,
+        80
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 6
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 7
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            22
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        2026092877,
+        "randomize",
+        24,
+        5.2,
+        "dpmpp_2m_sde",
+        "karras",
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "type": "LatentUpscale",
+      "title": "Hi-Res Latent Upscale (720x1280 9:16)",
+      "pos": [
+        1190,
+        380
+      ],
+      "size": [
+        315,
+        130
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 22
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            23
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "bislerp",
+        704,
+        960,
+        "disabled"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "KSampler",
+      "title": "Pass 2 Hi-Res Refiner (3D Pores & Depth)",
+      "pos": [
+        1540,
+        80
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 19
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 20
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 21
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            10
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        2026092878,
+        "randomize",
+        16,
+        5.0,
+        "dpmpp_2m",
+        "karras",
+        0.36
+      ]
+    },
+    {
+      "id": 1,
+      "type": "VAEDecode",
+      "title": "Auto-Tiled VAE Decode",
+      "pos": [
+        1890,
+        80
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 10
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            11
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 9,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        1890,
+        180
+      ],
+      "size": [
+        260,
+        58
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            12
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "4xUltrasharp_v10.pt"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        2180,
+        80
+      ],
+      "size": [
+        260,
+        46
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 12
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            13
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 11,
+      "type": "ImageScale",
+      "title": "2K 9:16 Output (1440 x 2560 px)",
+      "pos": [
+        2470,
+        80
+      ],
+      "size": [
+        290,
+        130
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            14
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "lanczos",
+        1440,
+        1960,
+        "disabled"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "SaveImage",
+      "title": "Save 2K 9:16 (1440x2560)",
+      "pos": [
+        2790,
+        80
+      ],
+      "size": [
+        340,
+        380
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 14
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "Blueprint_2K_1440x2560"
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      4,
+      0,
+      8,
+      0,
+      "MODEL"
+    ],
+    [
+      2,
+      4,
+      1,
+      8,
+      1,
+      "CLIP"
+    ],
+    [
+      15,
+      8,
+      0,
+      12,
+      0,
+      "MODEL"
+    ],
+    [
+      16,
+      8,
+      1,
+      12,
+      1,
+      "CLIP"
+    ],
+    [
+      17,
+      12,
+      0,
+      13,
+      0,
+      "MODEL"
+    ],
+    [
+      18,
+      12,
+      1,
+      13,
+      1,
+      "CLIP"
+    ],
+    [
+      3,
+      13,
+      0,
+      3,
+      0,
+      "MODEL"
+    ],
+    [
+      19,
+      13,
+      0,
+      15,
+      0,
+      "MODEL"
+    ],
+    [
+      24,
+      13,
+      1,
+      22,
+      0,
+      "CLIP"
+    ],
+    [
+      25,
+      16,
+      0,
+      22,
+      1,
+      "STRING"
+    ],
+    [
+      26,
+      17,
+      0,
+      22,
+      2,
+      "STRING"
+    ],
+    [
+      27,
+      18,
+      0,
+      22,
+      3,
+      "STRING"
+    ],
+    [
+      28,
+      19,
+      0,
+      22,
+      4,
+      "STRING"
+    ],
+    [
+      29,
+      20,
+      0,
+      22,
+      5,
+      "STRING"
+    ],
+    [
+      30,
+      21,
+      0,
+      22,
+      6,
+      "STRING"
+    ],
+    [
+      6,
+      22,
+      0,
+      3,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      20,
+      22,
+      0,
+      15,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      7,
+      22,
+      1,
+      3,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      21,
+      22,
+      1,
+      15,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      9,
+      22,
+      2,
+      3,
+      3,
+      "LATENT"
+    ],
+    [
+      8,
+      4,
+      2,
+      1,
+      1,
+      "VAE"
+    ],
+    [
+      22,
+      3,
+      0,
+      14,
+      0,
+      "LATENT"
+    ],
+    [
+      23,
+      14,
+      0,
+      15,
+      3,
+      "LATENT"
+    ],
+    [
+      10,
+      15,
+      0,
+      1,
+      0,
+      "LATENT"
+    ],
+    [
+      11,
+      1,
+      0,
+      10,
+      1,
+      "IMAGE"
+    ],
+    [
+      12,
+      9,
+      0,
+      10,
+      0,
+      "UPSCALE_MODEL"
+    ],
+    [
+      13,
+      10,
+      0,
+      11,
+      0,
+      "IMAGE"
+    ],
+    [
+      14,
+      11,
+      0,
+      2,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "🎨 เลือก Blueprint ตัวละครจากเมนู Dropdown (ไม่ต้องพิมพ์อะไรเพิ่ม)",
+      "bounding": [
+        5,
+        -10,
+        410,
+        790
+      ],
+      "color": "#3f789e",
+      "font_size": 22
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.75,
+      "offset": [
+        20,
+        30
+      ]
+    }
+  },
+  "version": 0.4
+}
